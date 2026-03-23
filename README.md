@@ -29,8 +29,8 @@ Output Example
 
 Conclusion
 
-RNN achieved the lowest MSE (28.39) and MAE (4.69), indicating that for this small dataset, a simple RNN outperformed more complex models.
-LSTM and GRU performed slightly worse (MSE ~44, 42; MAE ~5.05), likely due to the limited data size where complex architectures may overfit.
+RNN achieved the lowest MSE (20.26) and MAE (3.87), indicating that for this small dataset, a simple RNN outperformed more complex models.
+LSTM and GRU performed slightly worse (MSE 34.57, 36.39; MAE 4.6, 5.4), likely due to the limited data size where complex architectures may overfit.
 Overall, for small datasets, simpler models like RNN can provide better predictions, while LSTM and GRU are more beneficial for larger datasets or longer sequences.
 This experiment demonstrates the importance of choosing the right model complexity relative to dataset size.
 
